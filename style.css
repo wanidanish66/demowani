@@ -1,0 +1,53 @@
+#navbar {  
+    background-color: pink;
+    display: flex;
+    
+    justify-content: space-evenly;
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+li {
+    list-style-type: none;
+    display: inline-flex;
+    
+}
+.outer {
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.inner {
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+}
+@media (max-width:300px)
+{
+    .inner{
+        background-color: green;
+
+    }
+}
+@media (max-width:400px) and (min-width:300px)
+{
+    .inner{
+        background-color: pink;
+    }
+}
+@media (max-width:600px) and (min-width:400px)
+{
+    .inner{
+        background-color: red;
+    }
+}
+@media (min-width:600px)
+{
+    .inner{
+        background-color: blue;
+    }
+}

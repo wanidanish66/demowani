@@ -1,2 +1,2 @@
-# demowani
+# amazon mini project
 Author (wanid)

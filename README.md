@@ -1,2 +1,2 @@
 # amazon mini project
-Author (wanid)
+Author (danish_wani)
